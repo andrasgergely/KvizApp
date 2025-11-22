@@ -15,8 +15,8 @@ A felhasználó 10 kérdésre válaszol, a program pedig:
 ## Modulok és a modulokban használt függvények
 
 ### AA_kviz_modul.py
-- A_betolt_kerdesek() – a kérdésbank betöltése  
-- AA_Kviz osztály:
+- **AA_betolt_kerdesek()** – a kérdésbank betöltése  
+- **AA_Kviz** osztály:
   - uj()
   - aktualis()
   - valasz()
@@ -24,12 +24,12 @@ A felhasználó 10 kérdésre válaszol, a program pedig:
   - eredmeny()
 
 ### Használt külső modulok
-customtkinter – grafikus felület  
-random – kérdések véletlenszerű kiválasztása  
-datetime – játék időpontja és időtartama  
+- **customtkinter** – grafikus felület  
+- **random** – kérdések véletlenszerű kiválasztása  
+- **datetime** – játék időpontja és időtartama  
 
 ## Osztályok
-AA_Kviz
+- **AA_Kviz**
 
 ## Futtatás
 
@@ -49,6 +49,7 @@ python main.py
 - „Új játék” funkció időméréssel együtt  
 
 ## Fájlok
-main.py
-AA_kviz_modul.py
-README.md
+- **main.py**  
+- **AA_kviz_modul.py**  
+- **README.md**
+
