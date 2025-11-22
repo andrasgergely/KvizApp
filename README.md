@@ -1,19 +1,24 @@
-Focis kvíz
+# Focis kvíz
 
-Hallgató
+## Hallgató
 Ábrahám András
 
-Feladat leírása
+## Feladat leírása
 Grafikus kvízprogram, amely véletlenszerű focis kérdéseket jelenít meg, feldolgozza a válaszokat, majd százalékos eredményt és szöveges értékelést ad.
 
-Modul és a modulban használt függvények
-AA_kviz_modul: AA_betolt_kerdesek(), AA_Kviz (uj(), aktualis(), valasz(), vege(), eredmeny())
-customtkinter, random
+## Modulok és a modulokban használt függvények
+AA_kviz_modul.py:
+- AA_betolt_kerdesek()
+- AA_Kviz: uj(), aktualis(), valasz(), vege(), eredmeny()
 
-Osztály
+Használt külső modulok:
+- customtkinter
+- random
+
+## Osztály
 AA_Kviz
 
-Futtatás
+## Futtatás
 
 Ha még nincs telepítve:
 
@@ -23,7 +28,7 @@ Indítás:
 
 python main.py
 
-Fájlok
-main.py
-AA_kviz_modul.py
+## Fájlok
+main.py  
+AA_kviz_modul.py  
 README.md
